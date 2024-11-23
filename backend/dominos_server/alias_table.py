@@ -1,3 +1,4 @@
+
 alias_table = {
     "Sodium Benzoate": ["Sodium Benzote", "Sodium Benzoat", "Sodium Benazote", "E211"],
     "Sodium Nitrite": ["Sodium Nitirite", "Sodium Nitrate", "Nitrous Acid Sodium Salt"],
