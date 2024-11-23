@@ -1,9 +1,9 @@
-import 'dart:convert'; // For Base64 encoding
+import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:http/http.dart' as http; // For API calls
+import 'package:http/http.dart' as http;
 
 class HomeScreen extends StatefulWidget {
   final CameraDescription camera;
@@ -52,7 +52,7 @@ class _HomeScreenState extends State<HomeScreen> {
     try {
       await _initializeControllerFuture;
       final image = await _controller.takePicture();
-      await _processImage(File(image.path)); // Process the captured image
+      await _processImage(File(image.path));
     } catch (e) {
       print(e);
     }
@@ -63,21 +63,20 @@ class _HomeScreenState extends State<HomeScreen> {
     final pickedFile = await picker.pickImage(source: ImageSource.gallery);
 
     if (pickedFile != null) {
-      await _processImage(File(pickedFile.path)); // Process the selected image
+      await _processImage(File(pickedFile.path));
     }
   }
 
   Future<void> _processImage(File imageFile) async {
     setState(() {
-      _isLoading = true; // Show loader
+      _isLoading = true;
     });
 
     try {
-      // Convert image to Base64
       final bytes = await imageFile.readAsBytes();
       final base64Image = base64Encode(bytes);
 
-      // API call
+      // get report
       final response = await http.post(
         Uri.parse("http://localhost:5000/processing"),
         headers: {"Content-Type": "application/json"},
@@ -95,7 +94,6 @@ class _HomeScreenState extends State<HomeScreen> {
         // );
         print("Response: $responseData");
       } else {
-        // Handle error
         print("Error: ${response.statusCode}");
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(content: Text("Failed to process image. Try again.")),
@@ -108,7 +106,7 @@ class _HomeScreenState extends State<HomeScreen> {
       );
     } finally {
       setState(() {
-        _isLoading = false; // Hide loader
+        _isLoading = false;
       });
     }
   }
@@ -120,7 +118,7 @@ class _HomeScreenState extends State<HomeScreen> {
         children: [
           Column(
             children: [
-              // Navigation Bar
+              // navbar
               Container(
                 color: Colors.white,
                 padding: const EdgeInsets.only(
@@ -156,7 +154,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   ],
                 ),
               ),
-              // Camera Feed
               Expanded(
                 child: Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 16.0),
@@ -199,7 +196,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
               ),
-              // Buttons below the camera feed
               Padding(
                 padding: const EdgeInsets.symmetric(
                     horizontal: 16.0, vertical: 10.0),
@@ -235,57 +231,54 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                       ),
                       child: Image.asset(
-                        'assets/images/fab/upload.png', // Replace with your actual file path
-                        width: 24, // Adjust the size as needed
+                        'assets/images/fab/upload.png',
+                        width: 24,
                         height: 24,
                       ),
                     ),
                   ],
                 ),
               ),
-              Positioned(
-                bottom: 20,
-                left: 16,
-                right: 16,
-                child: Container(
-                  padding: const EdgeInsets.all(16.0),
-                  margin:
-                      const EdgeInsets.only(bottom: 20, left: 16, right: 16),
-                  decoration: BoxDecoration(
-                    color: Colors.grey[200],
-                    borderRadius: BorderRadius.circular(16.0),
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.black12,
-                        blurRadius: 4.0,
-                        spreadRadius: 2.0,
-                        offset: Offset(0, 2),
+              SizedBox(
+                  height: 20), // Add some space between the buttons and the box
+              Container(
+                padding: const EdgeInsets.all(16.0),
+                margin: const EdgeInsets.symmetric(horizontal: 16.0),
+                decoration: BoxDecoration(
+                  color: Colors.grey[200],
+                  borderRadius: BorderRadius.circular(16.0),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black12,
+                      blurRadius: 4.0,
+                      spreadRadius: 2.0,
+                      offset: Offset(0, 2),
+                    ),
+                  ],
+                ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const Text(
+                      "Tips: ",
+                      style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
                       ),
-                    ],
-                  ),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      const Text(
-                        "Tips:",
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 16,
-                          color: Colors.black,
-                        ),
+                    ),
+                    const SizedBox(height: 8),
+                    Text(
+                      "Scan the ingredients list on the back of the product to get the health effects after consuming them.",
+                      style: TextStyle(
+                        fontSize: 14,
+                        color: Colors.grey[600],
                       ),
-                      const SizedBox(height: 8),
-                      Text(
-                        "Scan the ingredients list on the back of the product to get the health effects after consuming them.",
-                        style: TextStyle(
-                          fontSize: 14,
-                          color: Colors.grey[600],
-                        ),
-                      ),
-                    ],
-                  ),
+                    ),
+                    // Add more content here
+                  ],
                 ),
               ),
+              SizedBox(height: 20),
             ],
           ),
           if (_isLoading)
