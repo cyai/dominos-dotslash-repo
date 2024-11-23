@@ -45,6 +45,7 @@ def data_cleaner(prompt_text):
         ],
         function_call={"name": "extract_ingredients"}
     )
+<<<<<<< HEAD
 
     message = response.choices[0].message.function_call.arguments
 
@@ -56,3 +57,14 @@ def data_cleaner(prompt_text):
         return f"Failed to parse JSON: {e}"
     
 
+=======
+
+    message = response.choices[0].message.function_call.arguments
+
+    try:
+        json_data = json.loads(message)  
+        return json_data['ingredients']
+      
+    except json.JSONDecodeError as e:
+        return f"Failed to parse JSON: {e}"
+>>>>>>> aaa3c08 (connection between utils and main)
