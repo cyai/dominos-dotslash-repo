@@ -1,8 +1,13 @@
 ### Mid Hack report:
 
-[x] Main screen
-[x] Fuzzy logic implementation
-[x] Alias table
-[x] OCR implementation
-[x] Data preprocessing and cleaning
-[x] Output parsing of ingredients
+-   ~~Main screen~~
+
+-   ~~Fuzzy logic implementation~~
+
+-   ~~Alias table~~
+
+-   ~~OCR implementation~~
+
+-   ~~Data preprocessing and cleaning~~
+
+-   ~~Output parsing of ingredients~~
