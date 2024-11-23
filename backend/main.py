@@ -27,7 +27,7 @@ def data_processing():
         try:
            
             ocr_data = perform_ocr(base64_data)
-            clean_data = data_cleaner(ocr_data)
+            clean_data = data_cleaner(str(ocr_data))
             
             return jsonify({"clean_data": clean_data}), 200
         
