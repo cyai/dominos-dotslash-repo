@@ -45,7 +45,6 @@ def data_cleaner(prompt_text):
         ],
         function_call={"name": "extract_ingredients"}
     )
-
     message = response.choices[0].message.function_call.arguments
 
     try:
@@ -54,5 +53,4 @@ def data_cleaner(prompt_text):
       
     except json.JSONDecodeError as e:
         return f"Failed to parse JSON: {e}"
-    
 

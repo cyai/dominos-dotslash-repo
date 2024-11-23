@@ -1,0 +1,2727 @@
+{
+    "ingredients": [
+        {
+            "name": "Sodium Benzoate",
+            "heart_weight": -0.6,
+            "stomach_weight": -0.7,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Sodium Nitrite",
+            "heart_weight": -0.9,
+            "stomach_weight": -0.8,
+            "kidney_weight": -0.8,
+            "skin_weight": -0.9
+        },
+        {
+            "name": "Sodium Nitrate",
+            "heart_weight": -0.9,
+            "stomach_weight": -0.8,
+            "kidney_weight": -0.8,
+            "skin_weight": -0.9
+        },
+        {
+            "name": "Sulfur Dioxide",
+            "heart_weight": -0.7,
+            "stomach_weight": -0.8,
+            "kidney_weight": -0.6,
+            "skin_weight": -0.7
+        },
+        {
+            "name": "BHT",
+            "heart_weight": -0.8,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.5
+        },
+        {
+            "name": "Potassium Sorbate",
+            "heart_weight": -0.5,
+            "stomach_weight": -0.7,
+            "kidney_weight": -0.4,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Sodium Erythorbate",
+            "heart_weight": -0.4,
+            "stomach_weight": -0.5,
+            "kidney_weight": -0.4,
+            "skin_weight": -0.5
+        },
+        {
+            "name": "Propyl Paraben",
+            "heart_weight": -0.7,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.6
+        },
+        {
+            "name": "Propionic Acid",
+            "heart_weight": -0.4,
+            "stomach_weight": -0.8,
+            "kidney_weight": -0.5,
+            "skin_weight": -0.6
+        },
+        {
+            "name": "TBHQ",
+            "heart_weight": -0.8,
+            "stomach_weight": -0.7,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Nisin",
+            "heart_weight": -0.3,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.2,
+            "skin_weight": -0.4
+        },
+        {
+            "name": "Red 40",
+            "heart_weight": -0.4,
+            "stomach_weight": -0.5,
+            "kidney_weight": -0.4,
+            "skin_weight": -0.6
+        },
+        {
+            "name": "Yellow 5",
+            "heart_weight": -0.5,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.5,
+            "skin_weight": -0.7
+        },
+        {
+            "name": "Tartrazine",
+            "heart_weight": -0.5,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.4,
+            "skin_weight": -0.7
+        },
+        {
+            "name": "Blue 1 and 2",
+            "heart_weight": -0.6,
+            "stomach_weight": -0.5,
+            "kidney_weight": -0.5,
+            "skin_weight": -0.6
+        },
+        {
+            "name": "Green 3",
+            "heart_weight": -0.4,
+            "stomach_weight": -0.5,
+            "kidney_weight": -0.3,
+            "skin_weight": -0.4
+        },
+        {
+            "name": "Aspartame",
+            "heart_weight": -0.7,
+            "stomach_weight": -0.8,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Sucralose",
+            "heart_weight": -0.6,
+            "stomach_weight": -0.9,
+            "kidney_weight": -0.5,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Saccharin",
+            "heart_weight": -0.5,
+            "stomach_weight": -0.7,
+            "kidney_weight": -0.4,
+            "skin_weight": -0.6
+        },
+        {
+            "name": "Acesulfame K",
+            "heart_weight": -0.6,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Polysorbate 80",
+            "heart_weight": -0.5,
+            "stomach_weight": -0.9,
+            "kidney_weight": -0.3,
+            "skin_weight": -0.9
+        },
+        {
+            "name": "Carboxymethylcellulose",
+            "heart_weight": -0.4,
+            "stomach_weight": -0.8,
+            "kidney_weight": -0.3,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Lecithin",
+            "heart_weight": -0.6,
+            "stomach_weight": -0.4,
+            "kidney_weight": -0.5,
+            "skin_weight": -0.3
+        },
+        {
+            "name": "Diglycerides",
+            "heart_weight": -0.8,
+            "stomach_weight": -0.5,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.4
+        },
+        {
+            "name": "Monoglycerides",
+            "heart_weight": -0.8,
+            "stomach_weight": -0.5,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.3
+        },
+        {
+            "name": "Sorbitan Monostearate",
+            "heart_weight": -0.3,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.4,
+            "skin_weight": -0.5
+        },
+        {
+            "name": "Carrageenan",
+            "heart_weight": -0.3,
+            "stomach_weight": -0.9,
+            "kidney_weight": -0.2,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Xanthan Gum",
+            "heart_weight": -0.2,
+            "stomach_weight": -0.7,
+            "kidney_weight": -0.3,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Guar Gum",
+            "heart_weight": -0.3,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.3,
+            "skin_weight": -0.7
+        },
+        {
+            "name": "Agar-Agar",
+            "heart_weight": 0.2,
+            "stomach_weight": 0.3,
+            "kidney_weight": 0.1,
+            "skin_weight": 0.4
+        },
+        {
+            "name": "Pectin",
+            "heart_weight": 0.3,
+            "stomach_weight": 0.4,
+            "kidney_weight": 0.2,
+            "skin_weight": 0.5
+        },
+        {
+            "name": "Ascorbic Acid",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.5,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.6
+        },
+        {
+            "name": "Vitamin C",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.5,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.6
+        },
+        {
+            "name": "Alpha-Tocopherol",
+            "heart_weight": 0.8,
+            "stomach_weight": 0.4,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.5
+        },
+        {
+            "name": "Vitamin E",
+            "heart_weight": 0.8,
+            "stomach_weight": 0.4,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.3
+        },
+        {
+            "name": "Propyl Gallate",
+            "heart_weight": -0.6,
+            "stomach_weight": -0.4,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.3
+        },
+        {
+            "name": "Butylated Hydroxyanisole",
+            "heart_weight": -0.8,
+            "stomach_weight": -0.5,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.4
+        },
+        {
+            "name": "Citric Acid",
+            "heart_weight": -0.3,
+            "stomach_weight": 0.2,
+            "kidney_weight": -0.2,
+            "skin_weight": -0.1
+        },
+        {
+            "name": "Lactic Acid",
+            "heart_weight": 0.2,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.1,
+            "skin_weight": 0.7
+        },
+        {
+            "name": "Phosphoric Acid",
+            "heart_weight": -0.7,
+            "stomach_weight": -0.4,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.5
+        },
+        {
+            "name": "Malic Acid",
+            "heart_weight": -0.2,
+            "stomach_weight": -0.5,
+            "kidney_weight": -0.1,
+            "skin_weight": -0.3
+        },
+        {
+            "name": "Monosodium Glutamate",
+            "heart_weight": -0.5,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.4,
+            "skin_weight": -0.7
+        },
+        {
+            "name": "MSG",
+            "heart_weight": -0.5,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.4,
+            "skin_weight": -0.7
+        },
+        {
+            "name": "Disodium Inosinate",
+            "heart_weight": -0.3,
+            "stomach_weight": -0.7,
+            "kidney_weight": -0.2,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Hydrolyzed Vegetable Protein",
+            "heart_weight": -0.4,
+            "stomach_weight": -0.5,
+            "kidney_weight": -0.3,
+            "skin_weight": -0.4
+        },
+        {
+            "name": "Glycerol",
+            "heart_weight": 0.1,
+            "stomach_weight": -0.4,
+            "kidney_weight": 0,
+            "skin_weight": -0.3
+        },
+        {
+            "name": "Propylene Glycol",
+            "heart_weight": -0.4,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.3,
+            "skin_weight": -0.5
+        },
+        {
+            "name": "Sorbitol",
+            "heart_weight": -0.3,
+            "stomach_weight": -0.8,
+            "kidney_weight": -0.2,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Vanillin",
+            "heart_weight": 0.2,
+            "stomach_weight": -0.2,
+            "kidney_weight": 0.1,
+            "skin_weight": -0.1
+        },
+        {
+            "name": "Ethyl Maltol",
+            "heart_weight": 0.3,
+            "stomach_weight": 0.2,
+            "kidney_weight": 0.4,
+            "skin_weight": 0.1
+        },
+        {
+            "name": "Oats",
+            "heart_weight": 0.8,
+            "stomach_weight": 0.7,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Flaxseeds",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Chia Seeds",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.7,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Almonds",
+            "heart_weight": 0.8,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Avocado",
+            "heart_weight": 0.9,
+            "stomach_weight": 0.5,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.6
+        },
+        {
+            "name": "Garlic",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.6
+        },
+        {
+            "name": "Olive Oil",
+            "heart_weight": 0.8,
+            "stomach_weight": 0.5,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.4
+        },
+        {
+            "name": "Berries",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.7
+        },
+        {
+            "name": "Turmeric",
+            "heart_weight": 0.6,
+            "stomach_weight": 0.7,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Green Tea",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.7,
+            "skin_weight":-0.5
+        },
+        {
+            "name": "Ginger",
+            "heart_weight": 0.6,
+            "stomach_weight": 0.8,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Yogurt",
+            "heart_weight": 0.5,
+            "stomach_weight": 0.9,
+            "kidney_weight": 0.4,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Kimchi",
+            "heart_weight": 0.6,
+            "stomach_weight": 0.9,
+            "kidney_weight": 0.5,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Lentils",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.7,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Coconut Oil",
+            "heart_weight": 0.6,
+            "stomach_weight": 0.5,
+            "kidney_weight": 0.4,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Pomegranates",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Beans",
+            "heart_weight": 0.8,
+            "stomach_weight": 0.7,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Apples",
+            "heart_weight": 0.6,
+            "stomach_weight": 0.7,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Carrots",
+            "heart_weight": 0.6,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.5
+        },
+        {
+            "name": "Kale",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.6
+        },
+        {
+            "name": "High Fructose Corn Syrup",
+            "heart_weight": -0.9,
+            "stomach_weight": -0.7,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Trans Fats",
+            "heart_weight": -1.0,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.9,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Artificial Sweeteners",
+            "heart_weight": -0.7,
+            "stomach_weight": -0.8,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Monosodium Glutamate",
+            "heart_weight": -0.6,
+            "stomach_weight": -0.8,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Sodium",
+            "heart_weight": -0.9,
+            "stomach_weight": -0.7,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Artificial Colors",
+            "heart_weight": -0.5,
+            "stomach_weight": -0.7,
+            "kidney_weight": -0.4,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Butylated HydroxyToluene",
+            "heart_weight": -0.8,
+            "stomach_weight": -0.7,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.7
+        },
+        {
+            "name": "Sodium Nitrite",
+            "heart_weight": -0.9,
+            "stomach_weight": -0.8,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Propylene Glycol",
+            "heart_weight": -0.5,
+            "stomach_weight": -0.9,
+            "kidney_weight": -0.4,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Partially Hydrogenated Oils",
+            "heart_weight": -1.0,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.8,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Mangoes",
+            "heart_weight": 0.6,
+            "stomach_weight": 0.7,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Tomatoes",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.5,
+            "kidney_weight": 0.6,
+            "skin_weight": 0.7
+        },
+        {
+            "name": "Cinnamon",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.7,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Psyllium Husk",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.8,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Pumpkin Seeds",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Hemp Seeds",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Beets",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Cabbage",
+            "heart_weight": 0.6,
+            "stomach_weight": 0.7,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.5
+        },
+        {
+            "name": "Broccoli",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Fermented Soy",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.8,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Seaweed",
+            "heart_weight": 0.6,
+            "stomach_weight": 0.7,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Cocoa",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Lemon",
+            "heart_weight": 0.5,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Artichokes",
+            "heart_weight": 0.6,
+            "stomach_weight": 0.8,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Pineapple",
+            "heart_weight": 0.6,
+            "stomach_weight": 0.7,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Coconut Water",
+            "heart_weight": 0.6,
+            "stomach_weight": 0.5,
+            "kidney_weight": 0.4,
+            "skin_weight": 0.7
+        },
+        {
+            "name": "Walnuts",
+            "heart_weight": 0.8,
+            "stomach_weight": 0.5,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.4
+        },
+        {
+            "name": "Mango",
+            "heart_weight": 0.6,
+            "stomach_weight": 0.7,
+            "kidney_weight": 0.5,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Hemp Oil",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Pumpkin",
+            "heart_weight": 0.6,
+            "stomach_weight": 0.7,
+            "kidney_weight": 0.5,
+            "skin_weight": 0.7
+        },
+        {
+            "name": "Dipotassium Phosphate",
+            "heart_weight": -0.6,
+            "stomach_weight": -0.8,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.7
+        },
+        {
+            "name": "Sodium Benzoate",
+            "heart_weight": -0.7,
+            "stomach_weight": -0.8,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Polysorbate 80",
+            "heart_weight": -0.7,
+            "stomach_weight": -0.9,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "BHA",
+            "heart_weight": -0.7,
+            "stomach_weight": -0.8,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Tert-Butylhydroquinone",
+            "heart_weight": -0.8,
+            "stomach_weight": -0.7,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Artificial Food Dyes",
+            "heart_weight": -0.6,
+            "stomach_weight": -0.8,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.5
+        },
+        {
+            "name": "Phosphoric Acid",
+            "heart_weight": -0.7,
+            "stomach_weight": -0.9,
+            "kidney_weight": -0.8,
+            "skin_weight": -0.6
+        },
+        {
+            "name": "Maltodextrin",
+            "heart_weight": -0.8,
+            "stomach_weight": -0.8,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Cornstarch",
+            "heart_weight": -0.7,
+            "stomach_weight": -0.7,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Artificial Flavorings",
+            "heart_weight": -0.5,
+            "stomach_weight": -0.7,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.4
+        },
+        {
+            "name": "Olives",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Tart Cherries",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Kiwi",
+            "heart_weight": 0.6,
+            "stomach_weight": 0.7,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Brussels Sprouts",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.7,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Garbanzo Beans",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.7,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Peas",
+            "heart_weight": 0.6,
+            "stomach_weight": 0.7,
+            "kidney_weight": 0.5,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Quinoa",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.7,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Acai Berries",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Papaya",
+            "heart_weight": 0.6,
+            "stomach_weight": 0.7,
+            "kidney_weight": 0.5,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Trans Fats",
+            "heart_weight": -1,
+            "stomach_weight": -1,
+            "kidney_weight": -1,
+            "skin_weight": -1
+        },
+        {
+            "name": "High-Fructose Corn Syrup",
+            "heart_weight": -1,
+            "stomach_weight": -1,
+            "kidney_weight": -1,
+            "skin_weight": -1
+        },
+        {
+            "name": "Artificial Sweeteners",
+            "heart_weight": -0.8,
+            "stomach_weight": -1,
+            "kidney_weight": -0.7,
+            "skin_weight": -1
+        },
+        {
+            "name": "Refined Sugar",
+            "heart_weight": -0.7,
+            "stomach_weight": -0.7,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Excess Salt",
+            "heart_weight": -1,
+            "stomach_weight": -0.5,
+            "kidney_weight": -1,
+            "skin_weight": -0.4
+        },
+        {
+            "name": "Emulsifiers",
+            "heart_weight": -0.5,
+            "stomach_weight": -1,
+            "kidney_weight": -0.9,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Artificial Colors",
+            "heart_weight": -0.4,
+            "stomach_weight": -0.8,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Preservatives",
+            "heart_weight": -0.6,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Monosodium Glutamate (MSG)",
+            "heart_weight": -0.5,
+            "stomach_weight": -0.9,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.4
+        },
+        {
+            "name": "Tartrazine",
+            "heart_weight": -0.4,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.3
+        },
+        {
+            "name": "Sodium Nitrite",
+            "heart_weight": -1,
+            "stomach_weight": -0.8,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.9
+        },
+        {
+            "name": "Olestra",
+            "heart_weight": -0.3,
+            "stomach_weight": -1,
+            "kidney_weight": -0.9,
+            "skin_weight": -0.2
+        },
+        {
+            "name": "Brominated Vegetable Oil",
+            "heart_weight": -0.7,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Potassium Bromate",
+            "heart_weight": -0.9,
+            "stomach_weight": -0.8,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Acesulfame Potassium",
+            "heart_weight": -0.5,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.3
+        },
+        {
+            "name": "Glyphosate",
+            "heart_weight": -0.7,
+            "stomach_weight": -0.8,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Propylparaben",
+            "heart_weight": -0.4,
+            "stomach_weight": -0.5,
+            "kidney_weight": -0.6,
+            "skin_weight": -0.2
+        },
+        {
+            "name": "High-Fructose Corn Syrup (HFCS)",
+            "heart_weight": -0.8,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Artificial Trans Fats",
+            "heart_weight": -1.0,
+            "stomach_weight": -0.8,
+            "kidney_weight": -0.7,
+            "skin_weight": -1
+        },
+        {
+            "name": "Refined Grains",
+            "heart_weight": -0.5,
+            "stomach_weight": -0.4,
+            "kidney_weight": -0.5,
+            "skin_weight": -0.3
+        },
+        {
+            "name": "Sodium Nitrate/Nitrite",
+            "heart_weight": -0.6,
+            "stomach_weight": -0.8,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.7
+        },
+        {
+            "name": "Carrageenan",
+            "heart_weight": 0.0,
+            "stomach_weight": -0.5,
+            "kidney_weight": -0.4,
+            "skin_weight": 0.1
+        },
+        {
+            "name": "Artificial Sweeteners (Aspartame, Sucralose)",
+            "heart_weight": -0.4,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.3
+        },
+        {
+            "name": "Monosodium Glutamate (MSG)",
+            "heart_weight": -0.2,
+            "stomach_weight": -0.3,
+            "kidney_weight": -0.4,
+            "skin_weight": -0.1
+        },
+        {
+            "name": "Palm Oil",
+            "heart_weight": -0.5,
+            "stomach_weight": -0.1,
+            "kidney_weight": -0.2,
+            "skin_weight": -0.4
+        },
+        {
+            "name": "Xanthan Gum",
+            "heart_weight": 0.2,
+            "stomach_weight": 0.3,
+            "kidney_weight": 0.4,
+            "skin_weight": 0.1
+        },
+        {
+            "name": "Titanium Dioxide",
+            "heart_weight": -0.3,
+            "stomach_weight": -0.5,
+            "kidney_weight": -0.4,
+            "skin_weight": -0.2
+        },
+        {
+            "name": "Hydrogenated Oils",
+            "heart_weight": -1.0,
+            "stomach_weight": -0.7,
+            "kidney_weight": -0.7,
+            "skin_weight": -1
+        },
+        {
+            "name": "Potassium Bromate",
+            "heart_weight": -0.7,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Artificial Food Coloring",
+            "heart_weight": -0.2,
+            "stomach_weight": -0.4,
+            "kidney_weight": -0.4,
+            "skin_weight": -0.3
+        },
+        {
+            "name": "Sodium Benzoate",
+            "heart_weight": -0.2,
+            "stomach_weight": -0.3,
+            "kidney_weight": -0.4,
+            "skin_weight": -0.3
+        },
+        {
+            "name": "Soy Lecithin",
+            "heart_weight": 0.4,
+            "stomach_weight": 0.3,
+            "kidney_weight": 0.2,
+            "skin_weight": 0.5
+        },
+        {
+            "name": "Phosphoric Acid",
+            "heart_weight": -0.3,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.2
+        },
+        {
+            "name": "Maltodextrin",
+            "heart_weight": -0.5,
+            "stomach_weight": -0.7,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.4
+        },
+        {
+            "name": "Butylated Hydroxyanisole (BHA)",
+            "heart_weight": -0.4,
+            "stomach_weight": -0.5,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.5
+        },
+        {
+            "name": "Propylene Glycol",
+            "heart_weight": -0.3,
+            "stomach_weight": -0.4,
+            "kidney_weight": -0.3,
+            "skin_weight": -0.2
+        },
+        {
+            "name": "Sodium Phosphate",
+            "heart_weight": -0.7,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Acesulfame Potassium (Ace-K)",
+            "heart_weight": -0.4,
+            "stomach_weight": -0.5,
+            "kidney_weight": -0.4,
+            "skin_weight": -0.3
+        },
+        {
+            "name": "Inulin",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.8,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Guar Gum",
+            "heart_weight": 0.6,
+            "stomach_weight": 0.7,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Calcium Propionate",
+            "heart_weight": 0.0,
+            "stomach_weight": -0.3,
+            "kidney_weight": -0.7,
+            "skin_weight": 0.0
+        },
+        {
+            "name": "Steviol Glycosides (Stevia)",
+            "heart_weight": 0.6,
+            "stomach_weight": 0.5,
+            "kidney_weight": 0.6,
+            "skin_weight": 0.4
+        },
+        {
+            "name": "Soy Protein Isolate",
+            "heart_weight": 0.5,
+            "stomach_weight": -0.1,
+            "kidney_weight": 0.1,
+            "skin_weight": 0.4
+        },
+        {
+            "name": "Aspartic Acid",
+            "heart_weight": 0.0,
+            "stomach_weight": -0.2,
+            "kidney_weight": -0.3,
+            "skin_weight": 0.0
+        },
+        {
+            "name": "Citric Acid",
+            "heart_weight": 0.0,
+            "stomach_weight": -0.2,
+            "kidney_weight": -0.1,
+            "skin_weight": 0.0
+        },
+        {
+            "name": "Modified Corn Starch",
+            "heart_weight": 0.0,
+            "stomach_weight": -0.4,
+            "kidney_weight": -0.3,
+            "skin_weight": 0.0
+        },
+        {
+            "name": "Malted Barley Flour",
+            "heart_weight": 0.6,
+            "stomach_weight": 0.5,
+            "kidney_weight": 0.6,
+            "skin_weight": 0.0
+        },
+        {
+            "name": "Sodium Caseinate",
+            "heart_weight": 0.0,
+            "stomach_weight": -0.2,
+            "kidney_weight": -0.5,
+            "skin_weight": 0.0
+        },
+        {
+            "name": "Tertiary Butylhydroquinone (TBHQ)",
+            "heart_weight": -0.5,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.4,
+            "skin_weight": -0.6
+        },
+        {
+            "name": "Erythritol",
+            "heart_weight": 0.2,
+            "stomach_weight": -0.1,
+            "kidney_weight": -0.3,
+            "skin_weight": 0.1
+        },
+        {
+            "name": "Agar-Agar",
+            "heart_weight": 0.4,
+            "stomach_weight": 0.5,
+            "kidney_weight": 0.6,
+            "skin_weight": 0.3
+        },
+        {
+            "name": "Beta-Carotene",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.5,
+            "kidney_weight": 0.4,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Carboxymethyl Cellulose",
+            "heart_weight": -0.3,
+            "stomach_weight": -0.4,
+            "kidney_weight": -0.3,
+            "skin_weight": -0.2
+        },
+        {
+            "name": "Fumaric Acid",
+            "heart_weight": 0.0,
+            "stomach_weight": -0.3,
+            "kidney_weight": -0.2,
+            "skin_weight": 0.0
+        },
+        {
+            "name": "Calcium Stearate",
+            "heart_weight": 0.0,
+            "stomach_weight": -0.1,
+            "kidney_weight": -0.2,
+            "skin_weight": 0.0
+        },
+        {
+            "name": "Propyl Gallate",
+            "heart_weight": -0.4,
+            "stomach_weight": -0.5,
+            "kidney_weight": -0.3,
+            "skin_weight": -0.4
+        },
+        {
+            "name": "Lactic Acid",
+            "heart_weight": 0.3,
+            "stomach_weight": 0.4,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Gum Arabic",
+            "heart_weight": 0.5,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Sodium Lactate",
+            "heart_weight": -0.2,
+            "stomach_weight": -0.3,
+            "kidney_weight": -0.1,
+            "skin_weight": -0.4
+        },
+        {
+            "name": "Gellan Gum",
+            "heart_weight": 0,
+            "stomach_weight": -0.3,
+            "kidney_weight": -0.7,
+            "skin_weight": 0
+        },
+        {
+            "name": "Isomalt",
+            "heart_weight": 0,
+            "stomach_weight": -0.5,
+            "kidney_weight": -0.4,
+            "skin_weight": 0
+        },
+        {
+            "name": "Potassium Sorbate",
+            "heart_weight": 0,
+            "stomach_weight": -0.3,
+            "kidney_weight": -0.3,
+            "skin_weight": 0
+        },
+        {
+            "name": "Riboflavin",
+            "heart_weight": 0.5,
+            "stomach_weight": 0.3,
+            "kidney_weight": 0.2,
+            "skin_weight": 0.4
+        },
+        {
+            "name": "Tapioca Starch",
+            "heart_weight": 0,
+            "stomach_weight": -0.2,
+            "kidney_weight": -0.1,
+            "skin_weight": 0
+        },
+        {
+            "name": "Tricalcium Phosphate",
+            "heart_weight": 0.2,
+            "stomach_weight": -0.2,
+            "kidney_weight": -0.4,
+            "skin_weight": 0.3
+        },
+        {
+            "name": "Confectioner's Glaze",
+            "heart_weight": 0,
+            "stomach_weight": -0.3,
+            "kidney_weight": -0.4,
+            "skin_weight": 0
+        },
+        {
+            "name": "Dextrose",
+            "heart_weight": -0.4,
+            "stomach_weight": -0.4,
+            "kidney_weight": -0.5,
+            "skin_weight": -0.6
+        },
+        {
+            "name": "Psyllium Husk",
+            "heart_weight": 0.6,
+            "stomach_weight": 0.5,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.5
+        },
+        {
+            "name": "Polydextrose",
+            "heart_weight": 0.2,
+            "stomach_weight": 0.3,
+            "kidney_weight": 0.1,
+            "skin_weight": 0.4
+        },
+        {
+            "name": "Pectin",
+            "heart_weight": 0.5,
+            "stomach_weight": 0.4,
+            "kidney_weight": 0.4,
+            "skin_weight": 0.6
+        },
+        {
+            "name": "Malt Extract",
+            "heart_weight": 0,
+            "stomach_weight": 0.2,
+            "kidney_weight": 0.3,
+            "skin_weight": 0.1
+        },
+        {
+            "name": "Sucralose",
+            "heart_weight": -0.2,
+            "stomach_weight": -0.4,
+            "kidney_weight": -0.3,
+            "skin_weight": -0.1
+        },
+        {
+            "name": "Glucomannan",
+            "heart_weight": 0.6,
+            "stomach_weight": 0.5,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.7
+        },
+        {
+            "name": "Calcium Sulfate",
+            "heart_weight": 0.2,
+            "stomach_weight": 0,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Fructooligosaccharides (FOS)",
+            "heart_weight": 0.3,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.2
+        },
+        {
+            "name": "Maltose",
+            "heart_weight": -0.4,
+            "stomach_weight": -0.3,
+            "kidney_weight": -0.3,
+            "skin_weight": -0.4
+        },
+        {
+            "name": "Sodium Bicarbonate",
+            "heart_weight": -0.3,
+            "stomach_weight": -0.4,
+            "kidney_weight": -0.5,
+            "skin_weight": -0.2
+        },
+        {
+            "name": "High Oleic Sunflower Oil",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.2,
+            "kidney_weight": 0.3,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Carrageenan",
+            "heart_weight": 0,
+            "stomach_weight": -0.5,
+            "kidney_weight": -0.5,
+            "skin_weight": 0
+        },
+        {
+            "name": "Xylitol",
+            "heart_weight": 0.1,
+            "stomach_weight": -0.4,
+            "kidney_weight": 0.3,
+            "skin_weight": 0
+        },
+        {
+            "name": "Ascorbic Acid",
+            "heart_weight": 0.5,
+            "stomach_weight": 0.2,
+            "kidney_weight": 0.4,
+            "skin_weight": 0.4
+        },
+        {
+            "name": "Artificial Flavoring",
+            "heart_weight": -0.2,
+            "stomach_weight": -0.3,
+            "kidney_weight": -0.4,
+            "skin_weight": -0.5
+        },
+        {
+            "name": "Hydrolyzed Vegetable Protein",
+            "heart_weight": 0,
+            "stomach_weight": -0.3,
+            "kidney_weight": -0.3,
+            "skin_weight": 0
+        },
+        {
+            "name": "Palm Oil",
+            "heart_weight": -0.6,
+            "stomach_weight": 0,
+            "kidney_weight": 0,
+            "skin_weight": -0.7
+        },
+        {
+            "name": "MCT Oil",
+            "heart_weight": 0.5,
+            "stomach_weight": 0.3,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.4
+        },
+        {
+            "name": "Calcium Carbonate",
+            "heart_weight": 0.2,
+            "stomach_weight": -0.2,
+            "kidney_weight": -0.5,
+            "skin_weight": 0.1
+        },
+        {
+            "name": "Rice Bran Oil",
+            "heart_weight": 0.6,
+            "stomach_weight": 0.2,
+            "kidney_weight": 0.3,
+            "skin_weight": 0.5
+        },
+        {
+            "name": "Spirulina",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.6
+        },
+        {
+            "name": "Calcium Citrate",
+            "heart_weight": 0.3,
+            "stomach_weight": 0,
+            "kidney_weight": 0,
+            "skin_weight": 0.2
+        },
+        {
+            "name": "Agar-Agar",
+            "heart_weight": 0.2,
+            "stomach_weight": 0.4,
+            "kidney_weight": 0.3,
+            "skin_weight": 0.4
+        },
+        {
+            "name": "Sodium Acid Pyrophosphate",
+            "heart_weight": -0.3,
+            "stomach_weight": -0.2,
+            "kidney_weight": -0.4,
+            "skin_weight": -0.3
+        },
+        {
+            "name": "Potassium Citrate",
+            "heart_weight": 0.4,
+            "stomach_weight": 0.2,
+            "kidney_weight": 0.2,
+            "skin_weight": 0.3
+        },
+        {
+            "name": "Tapioca Maltodextrin",
+            "heart_weight": -0.4,
+            "stomach_weight": -0.3,
+            "kidney_weight": -0.2,
+            "skin_weight": -0.5
+        },
+        {
+            "name": "Erythritol",
+            "heart_weight": 0.1,
+            "stomach_weight": -0.2,
+            "kidney_weight": 0.2,
+            "skin_weight": -0.1
+        },
+        {
+            "name": "Yeast Extract",
+            "heart_weight": 0,
+            "stomach_weight": 0.3,
+            "kidney_weight": 0.1,
+            "skin_weight": 0
+        },
+        {
+            "name": "Rice Flour",
+            "heart_weight": 0.2,
+            "stomach_weight": 0,
+            "kidney_weight": 0.1,
+            "skin_weight": 0.1
+        },
+        {
+            "name": "Monoglycerides and Diglycerides",
+            "heart_weight": -0.3,
+            "stomach_weight": -0.2,
+            "kidney_weight": -0.3,
+            "skin_weight": -0.2
+        },
+        {
+            "name": "Citric Acid",
+            "heart_weight": 0,
+            "stomach_weight": -0.5,
+            "kidney_weight": -0.6,
+            "skin_weight": 0
+        },
+        {
+            "name": "Sorbitol",
+            "heart_weight": 0,
+            "stomach_weight": -0.4,
+            "kidney_weight": 0,
+            "skin_weight": 0.3
+        },
+        {
+            "name": "Silicon Dioxide",
+            "heart_weight": 0,
+            "stomach_weight": -0.2,
+            "kidney_weight": -0.1,
+            "skin_weight": 0
+        },
+        {
+            "name": "Guarana Extract",
+            "heart_weight": -0.4,
+            "stomach_weight": -0.3,
+            "kidney_weight": -0.3,
+            "skin_weight": -0.5
+        },
+        {
+            "name": "Modified Starch",
+            "heart_weight": -0.3,
+            "stomach_weight": -0.3,
+            "kidney_weight": -0.4,
+            "skin_weight": -0.4
+        },
+        {
+            "name": "Casein",
+            "heart_weight": 0,
+            "stomach_weight": -0.4,
+            "kidney_weight": -0.3,
+            "skin_weight": 0
+        },
+        {
+            "name": "Calcium Chloride",
+            "heart_weight": 0.2,
+            "stomach_weight": -0.2,
+            "kidney_weight": 0.1,
+            "skin_weight": 0.1
+        },
+        {
+            "name": "Carob Gum",
+            "heart_weight": 0.4,
+            "stomach_weight": 0.3,
+            "kidney_weight": 0.1,
+            "skin_weight": 0.2
+        },
+        {
+            "name": "Pectin",
+            "heart_weight": 0.5,
+            "stomach_weight": 0.4,
+            "kidney_weight": 0.3,
+            "skin_weight": 0.4
+        },
+        {
+            "name": "Beta-Carotene",
+            "heart_weight": 0.6,
+            "stomach_weight": 0.3,
+            "kidney_weight": 0.5,
+            "skin_weight": 0.3
+        },
+        {
+            "name": "Sodium Nitrite",
+            "heart_weight": -0.7,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Turmeric Extract",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Methylcellulose",
+            "heart_weight": 0,
+            "stomach_weight": -0.3,
+            "kidney_weight": -0.4,
+            "skin_weight": 0
+        },
+        {
+            "name": "Inulin",
+            "heart_weight": 0.4,
+            "stomach_weight": 0.5,
+            "kidney_weight": 0.3,
+            "skin_weight": 0.2
+        },
+        {
+            "name": "Sucrose",
+            "heart_weight": -0.5,
+            "stomach_weight": -0.4,
+            "kidney_weight": -0.5,
+            "skin_weight": -0.4
+        },
+        {
+            "name": "Stevia",
+            "heart_weight": 0.2,
+            "stomach_weight": 0,
+            "kidney_weight": 0,
+            "skin_weight": 0.1
+        },
+        {
+            "name": "Cellulose Gum",
+            "heart_weight": 0,
+            "stomach_weight": -0.3,
+            "kidney_weight": -0.5,
+            "skin_weight": 0
+        },
+        {
+            "name": "L-Taurine",
+            "heart_weight": 0.4,
+            "stomach_weight": 0.2,
+            "kidney_weight": 0.3,
+            "skin_weight": 0.4
+        },
+        {
+            "name": "Golden Rice",
+            "heart_weight": 0.5,
+            "stomach_weight": 0,
+            "kidney_weight": 0,
+            "skin_weight": 0.4
+        },
+        {
+            "name": "Bt Corn",
+            "heart_weight": 0,
+            "stomach_weight": 0,
+            "kidney_weight": 0,
+            "skin_weight": 0
+        },
+        {
+            "name": "Omega-3 Canola",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.1,
+            "kidney_weight": 0.4,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Bt Corn",
+            "heart_weight": 0,
+            "stomach_weight": 0,
+            "kidney_weight": 0,
+            "skin_weight": 0
+        },
+        {
+            "name": "High-Oleic Soybean Oil",
+            "heart_weight": 0.8,
+            "stomach_weight": 0.3,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Water",
+            "heart_weight": 0.4,
+            "stomach_weight": 0.3,
+            "kidney_weight": -0.0,
+            "skin_weight": -0.7
+        },
+        {
+            "name": "Sugar",
+            "heart_weight": 0.5,
+            "stomach_weight": -0.3,
+            "kidney_weight": -0.6,
+            "skin_weight": -0.3
+        },
+        {
+            "name": "Salt",
+            "heart_weight": -0.7,
+            "stomach_weight": 0.4,
+            "kidney_weight": -0.6,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Corn syrup",
+            "heart_weight": -0.4,
+            "stomach_weight": -0.8,
+            "kidney_weight": 0.8,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "High fructose corn syrup",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.4,
+            "kidney_weight": 0.1,
+            "skin_weight": 0.1
+        },
+        {
+            "name": "Honey",
+            "heart_weight": -0.4,
+            "stomach_weight": -0.3,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.4
+        },
+        {
+            "name": "Maple syrup",
+            "heart_weight": -0.0,
+            "stomach_weight": 0.0,
+            "kidney_weight": -1.0,
+            "skin_weight": 0.4
+        },
+        {
+            "name": "Molasses",
+            "heart_weight": -0.8,
+            "stomach_weight": -0.2,
+            "kidney_weight": 0.1,
+            "skin_weight": -0.3
+        },
+        {
+            "name": "Brown sugar",
+            "heart_weight": -0.3,
+            "stomach_weight": -0.3,
+            "kidney_weight": -0.2,
+            "skin_weight": 0.3
+        },
+        {
+            "name": "White sugar",
+            "heart_weight": 1.0,
+            "stomach_weight": 0.8,
+            "kidney_weight": -0.5,
+            "skin_weight": 0.9
+        },
+        {
+            "name": "Powdered sugar",
+            "heart_weight": 0.9,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.1,
+            "skin_weight": -0.9
+        },
+        {
+            "name": "Agave syrup",
+            "heart_weight": -0.2,
+            "stomach_weight": -0.8,
+            "kidney_weight": 0.8,
+            "skin_weight": -0.5
+        },
+        {
+            "name": "Stevia",
+            "heart_weight": -0.1,
+            "stomach_weight": -0.0,
+            "kidney_weight": -0.2,
+            "skin_weight": -0.5
+        },
+        {
+            "name": "Artificial sweeteners",
+            "heart_weight": 0.8,
+            "stomach_weight": -0.6,
+            "kidney_weight": 0.4,
+            "skin_weight": 0.0
+        },
+        {
+            "name": "Dextrose",
+            "heart_weight": -0.2,
+            "stomach_weight": -0.0,
+            "kidney_weight": 0.8,
+            "skin_weight": -0.1
+        },
+        {
+            "name": "Sucrose",
+            "heart_weight": -0.9,
+            "stomach_weight": -0.0,
+            "kidney_weight": -0.8,
+            "skin_weight": -0.4
+        },
+        {
+            "name": "Maltodextrin",
+            "heart_weight": 0.9,
+            "stomach_weight": 0.9,
+            "kidney_weight": 0.3,
+            "skin_weight": -1.0
+        },
+        {
+            "name": "Sorbitol",
+            "heart_weight": 0.5,
+            "stomach_weight": -0.2,
+            "kidney_weight": -0.9,
+            "skin_weight": -0.0
+        },
+        {
+            "name": "Mannitol",
+            "heart_weight": 0.8,
+            "stomach_weight": 0.0,
+            "kidney_weight": 0.8,
+            "skin_weight": 0.2
+        },
+        {
+            "name": "Xylitol",
+            "heart_weight": 0.9,
+            "stomach_weight": 0.3,
+            "kidney_weight": 0.8,
+            "skin_weight": -0.7
+        },
+        {
+            "name": "Erythritol",
+            "heart_weight": -0.2,
+            "stomach_weight": -0.3,
+            "kidney_weight": -1.0,
+            "skin_weight": -0.2
+        },
+        {
+            "name": "Artificial flavoring",
+            "heart_weight": -0.7,
+            "stomach_weight": -0.9,
+            "kidney_weight": -0.7,
+            "skin_weight": 0.4
+        },
+        {
+            "name": "Natural flavoring",
+            "heart_weight": 0.9,
+            "stomach_weight": 0.7,
+            "kidney_weight": -0.1,
+            "skin_weight": -0.2
+        },
+        {
+            "name": "Monosodium glutamate (MSG)",
+            "heart_weight": -0.9,
+            "stomach_weight": 0.3,
+            "kidney_weight": -0.0,
+            "skin_weight": 0.7
+        },
+        {
+            "name": "Citric acid",
+            "heart_weight": 0.7,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.7,
+            "skin_weight": 0.7
+        },
+        {
+            "name": "Sodium benzoate",
+            "heart_weight": -0.5,
+            "stomach_weight": 0.6,
+            "kidney_weight": -0.6,
+            "skin_weight": -0.3
+        },
+        {
+            "name": "Potassium sorbate",
+            "heart_weight": -0.9,
+            "stomach_weight": -0.3,
+            "kidney_weight": 0.6,
+            "skin_weight": -0.2
+        },
+        {
+            "name": "Ascorbic acid (Vitamin C)",
+            "heart_weight": 0.6,
+            "stomach_weight": -0.4,
+            "kidney_weight": 0.6,
+            "skin_weight": 0.1
+        },
+        {
+            "name": "Vinegar",
+            "heart_weight": -0.5,
+            "stomach_weight": -0.1,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.1
+        },
+        {
+            "name": "Soybean oil",
+            "heart_weight": 0.1,
+            "stomach_weight": -0.0,
+            "kidney_weight": -0.8,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Palm oil",
+            "heart_weight": -0.3,
+            "stomach_weight": 0.6,
+            "kidney_weight": -0.7,
+            "skin_weight": 0.6
+        },
+        {
+            "name": "Canola oil",
+            "heart_weight": -0.9,
+            "stomach_weight": -0.8,
+            "kidney_weight": -0.5,
+            "skin_weight": -0.3
+        },
+        {
+            "name": "Olive oil",
+            "heart_weight": -0.2,
+            "stomach_weight": -0.9,
+            "kidney_weight": -0.1,
+            "skin_weight": -0.1
+        },
+        {
+            "name": "Sunflower oil",
+            "heart_weight": 0.9,
+            "stomach_weight": -0.3,
+            "kidney_weight": -0.9,
+            "skin_weight": 0.1
+        },
+        {
+            "name": "Vegetable oil",
+            "heart_weight": 0.8,
+            "stomach_weight": -0.8,
+            "kidney_weight": -0.8,
+            "skin_weight": 0.6
+        },
+        {
+            "name": "Coconut oil",
+            "heart_weight": 0.8,
+            "stomach_weight": 0.5,
+            "kidney_weight": 0.5,
+            "skin_weight": -0.7
+        },
+        {
+            "name": "Butter",
+            "heart_weight": 0.4,
+            "stomach_weight": -0.0,
+            "kidney_weight": -0.3,
+            "skin_weight": 0.2
+        },
+        {
+            "name": "Margarine",
+            "heart_weight": 0.9,
+            "stomach_weight": -0.1,
+            "kidney_weight": -0.4,
+            "skin_weight": -0.7
+        },
+        {
+            "name": "Lard",
+            "heart_weight": 0.2,
+            "stomach_weight": -0.0,
+            "kidney_weight": -0.5,
+            "skin_weight": 0.2
+        },
+        {
+            "name": "Egg yolk",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.0,
+            "skin_weight": -0.1
+        },
+        {
+            "name": "Whole eggs",
+            "heart_weight": 0.5,
+            "stomach_weight": -0.9,
+            "kidney_weight": 0.4,
+            "skin_weight": -0.7
+        },
+        {
+            "name": "Egg whites",
+            "heart_weight": -0.3,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.7,
+            "skin_weight": -0.6
+        },
+        {
+            "name": "Milk",
+            "heart_weight": 0.0,
+            "stomach_weight": -0.3,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.4
+        },
+        {
+            "name": "Skim milk",
+            "heart_weight": -0.2,
+            "stomach_weight": 0.9,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.5
+        },
+        {
+            "name": "Evaporated milk",
+            "heart_weight": 0.2,
+            "stomach_weight": 0.6,
+            "kidney_weight": -0.9,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Condensed milk",
+            "heart_weight": -0.6,
+            "stomach_weight": -0.0,
+            "kidney_weight": 0.3,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Cream",
+            "heart_weight": -0.2,
+            "stomach_weight": -0.0,
+            "kidney_weight": -0.6,
+            "skin_weight": 0.6
+        },
+        {
+            "name": "Sour cream",
+            "heart_weight": -0.2,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.0,
+            "skin_weight": -0.2
+        },
+        {
+            "name": "Yogurt",
+            "heart_weight": 0.2,
+            "stomach_weight": -0.4,
+            "kidney_weight": -0.6,
+            "skin_weight": -0.5
+        },
+        {
+            "name": "Buttermilk",
+            "heart_weight": -0.9,
+            "stomach_weight": -0.5,
+            "kidney_weight": 0.3,
+            "skin_weight": 0.6
+        },
+        {
+            "name": "Cheese",
+            "heart_weight": 0.6,
+            "stomach_weight": 0.6,
+            "kidney_weight": -0.5,
+            "skin_weight": -0.2
+        },
+        {
+            "name": "Pectin",
+            "heart_weight": -1.0,
+            "stomach_weight": -0.3,
+            "kidney_weight": -0.9,
+            "skin_weight": -0.7
+        },
+        {
+            "name": "Guar gum",
+            "heart_weight": -0.5,
+            "stomach_weight": 0.5,
+            "kidney_weight": 0.5,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Xanthan gum",
+            "heart_weight": -0.2,
+            "stomach_weight": -0.6,
+            "kidney_weight": 0.5,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Agar agar",
+            "heart_weight": 0.3,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.2,
+            "skin_weight": 0.6
+        },
+        {
+            "name": "Gelatin",
+            "heart_weight": -0.5,
+            "stomach_weight": 1.0,
+            "kidney_weight": 0.2,
+            "skin_weight": 0.9
+        },
+        {
+            "name": "Carrageenan",
+            "heart_weight": 0.1,
+            "stomach_weight": -0.2,
+            "kidney_weight": 0.2,
+            "skin_weight": 0.4
+        },
+        {
+            "name": "Modified corn starch",
+            "heart_weight": -0.7,
+            "stomach_weight": 0.1,
+            "kidney_weight": -0.8,
+            "skin_weight": -0.2
+        },
+        {
+            "name": "Potato starch",
+            "heart_weight": 0.9,
+            "stomach_weight": 0.9,
+            "kidney_weight": -0.0,
+            "skin_weight": -0.6
+        },
+        {
+            "name": "Arrowroot powder",
+            "heart_weight": 0.8,
+            "stomach_weight": 0.7,
+            "kidney_weight": 0.2,
+            "skin_weight": 0.6
+        },
+        {
+            "name": "Tapioca starch",
+            "heart_weight": -0.1,
+            "stomach_weight": 0.9,
+            "kidney_weight": -0.4,
+            "skin_weight": 0.7
+        },
+        {
+            "name": "Wheat flour",
+            "heart_weight": -0.1,
+            "stomach_weight": 1.0,
+            "kidney_weight": -0.9,
+            "skin_weight": -0.5
+        },
+        {
+            "name": "All-purpose flour",
+            "heart_weight": -0.3,
+            "stomach_weight": 0.3,
+            "kidney_weight": 0.1,
+            "skin_weight": 0.6
+        },
+        {
+            "name": "Whole wheat flour",
+            "heart_weight": 0.0,
+            "stomach_weight": -0.9,
+            "kidney_weight": -0.6,
+            "skin_weight": 0.7
+        },
+        {
+            "name": "Cake flour",
+            "heart_weight": -0.6,
+            "stomach_weight": 0.1,
+            "kidney_weight": 0.4,
+            "skin_weight": -0.5
+        },
+        {
+            "name": "Semolina flour",
+            "heart_weight": 0.5,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.1,
+            "skin_weight": 0.1
+        },
+        {
+            "name": "Rye flour",
+            "heart_weight": -0.4,
+            "stomach_weight": 0.0,
+            "kidney_weight": 0.4,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Cornmeal",
+            "heart_weight": 0.8,
+            "stomach_weight": -1.0,
+            "kidney_weight": 0.9,
+            "skin_weight": 0.7
+        },
+        {
+            "name": "Rice flour",
+            "heart_weight": 0.6,
+            "stomach_weight": -0.7,
+            "kidney_weight": -0.4,
+            "skin_weight": -1.0
+        },
+        {
+            "name": "Almond flour",
+            "heart_weight": -0.5,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.1,
+            "skin_weight": 0.9
+        },
+        {
+            "name": "Coconut flour",
+            "heart_weight": -0.2,
+            "stomach_weight": 0.1,
+            "kidney_weight": -0.9,
+            "skin_weight": 0.7
+        },
+        {
+            "name": "Oat flour",
+            "heart_weight": 0.0,
+            "stomach_weight": 0.8,
+            "kidney_weight": 0.5,
+            "skin_weight": -0.7
+        },
+        {
+            "name": "Buckwheat flour",
+            "heart_weight": -1.0,
+            "stomach_weight": 0.3,
+            "kidney_weight": -0.6,
+            "skin_weight": -0.3
+        },
+        {
+            "name": "Soy flour",
+            "heart_weight": 0.6,
+            "stomach_weight": -0.9,
+            "kidney_weight": -0.9,
+            "skin_weight": 0.6
+        },
+        {
+            "name": "Spelt flour",
+            "heart_weight": -0.2,
+            "stomach_weight": -0.2,
+            "kidney_weight": 0.6,
+            "skin_weight": -0.3
+        },
+        {
+            "name": "Baking soda",
+            "heart_weight": 0.0,
+            "stomach_weight": 0.3,
+            "kidney_weight": -0.1,
+            "skin_weight": -0.4
+        },
+        {
+            "name": "Baking powder",
+            "heart_weight": -0.2,
+            "stomach_weight": -0.8,
+            "kidney_weight": 0.1,
+            "skin_weight": 0.5
+        },
+        {
+            "name": "Yeast",
+            "heart_weight": -0.8,
+            "stomach_weight": -0.9,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.9
+        },
+        {
+            "name": "Flaxseed",
+            "heart_weight": -0.2,
+            "stomach_weight": -0.8,
+            "kidney_weight": -0.7,
+            "skin_weight": 0.2
+        },
+        {
+            "name": "Chia seeds",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.8,
+            "kidney_weight": -0.0,
+            "skin_weight": -0.5
+        },
+        {
+            "name": "Hemp seeds",
+            "heart_weight": -0.9,
+            "stomach_weight": 0.8,
+            "kidney_weight": 0.5,
+            "skin_weight": 0.7
+        },
+        {
+            "name": "Sunflower seeds",
+            "heart_weight": 0.5,
+            "stomach_weight": 0.0,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.2
+        },
+        {
+            "name": "Pumpkin seeds",
+            "heart_weight": -0.7,
+            "stomach_weight": -0.4,
+            "kidney_weight": 0.9,
+            "skin_weight": 0.3
+        },
+        {
+            "name": "Sesame seeds",
+            "heart_weight": 0.5,
+            "stomach_weight": -0.9,
+            "kidney_weight": -0.8,
+            "skin_weight": 0.2
+        },
+        {
+            "name": "Almonds",
+            "heart_weight": -0.8,
+            "stomach_weight": -0.8,
+            "kidney_weight": -0.6,
+            "skin_weight": 0.7
+        },
+        {
+            "name": "Walnuts",
+            "heart_weight": 0.3,
+            "stomach_weight": 0.0,
+            "kidney_weight": -0.2,
+            "skin_weight": 0.6
+        },
+        {
+            "name": "Cashews",
+            "heart_weight": -1.0,
+            "stomach_weight": 0.0,
+            "kidney_weight": -0.8,
+            "skin_weight": 0.6
+        },
+        {
+            "name": "Pecans",
+            "heart_weight": -0.8,
+            "stomach_weight": 0.4,
+            "kidney_weight": 0.3,
+            "skin_weight": 0.0
+        },
+        {
+            "name": "Brazil nuts",
+            "heart_weight": -0.1,
+            "stomach_weight": -0.5,
+            "kidney_weight": -0.0,
+            "skin_weight": 0.3
+        },
+        {
+            "name": "Macadamia nuts",
+            "heart_weight": 0.2,
+            "stomach_weight": 0.9,
+            "kidney_weight": 1.0,
+            "skin_weight": 0.1
+        },
+        {
+            "name": "Hazelnuts",
+            "heart_weight": -0.5,
+            "stomach_weight": -0.8,
+            "kidney_weight": 0.1,
+            "skin_weight": -0.9
+        },
+        {
+            "name": "Pine nuts",
+            "heart_weight": 0.0,
+            "stomach_weight": 0.2,
+            "kidney_weight": -0.8,
+            "skin_weight": 0.1
+        },
+        {
+            "name": "Peanuts",
+            "heart_weight": -0.7,
+            "stomach_weight": -0.4,
+            "kidney_weight": -0.4,
+            "skin_weight": 0.9
+        },
+        {
+            "name": "Nutmeg",
+            "heart_weight": 0.4,
+            "stomach_weight": -0.5,
+            "kidney_weight": 0.2,
+            "skin_weight": -0.4
+        },
+        {
+            "name": "Cinnamon",
+            "heart_weight": -0.0,
+            "stomach_weight": 0.5,
+            "kidney_weight": -0.4,
+            "skin_weight": -0.2
+        },
+        {
+            "name": "Cloves",
+            "heart_weight": 0.6,
+            "stomach_weight": -0.2,
+            "kidney_weight": -0.8,
+            "skin_weight": 0.7
+        },
+        {
+            "name": "Ginger",
+            "heart_weight": 0.6,
+            "stomach_weight": 0.7,
+            "kidney_weight": 0.1,
+            "skin_weight": -0.6
+        },
+        {
+            "name": "Turmeric",
+            "heart_weight": 0.3,
+            "stomach_weight": -0.8,
+            "kidney_weight": 0.7,
+            "skin_weight": -0.7
+        },
+        {
+            "name": "Garlic",
+            "heart_weight": 0.4,
+            "stomach_weight": -0.8,
+            "kidney_weight": -0.9,
+            "skin_weight": 0.2
+        },
+        {
+            "name": "Onion",
+            "heart_weight": -0.6,
+            "stomach_weight": 0.6,
+            "kidney_weight": -0.4,
+            "skin_weight": 1.0
+        },
+        {
+            "name": "Chives",
+            "heart_weight": 0.9,
+            "stomach_weight": 0.5,
+            "kidney_weight": -0.9,
+            "skin_weight": 0.7
+        },
+        {
+            "name": "Parsley",
+            "heart_weight": -1.0,
+            "stomach_weight": 0.5,
+            "kidney_weight": 0.8,
+            "skin_weight": 0.2
+        },
+        {
+            "name": "Basil",
+            "heart_weight": -0.0,
+            "stomach_weight": 1.0,
+            "kidney_weight": -0.5,
+            "skin_weight": 0.5
+        },
+        {
+            "name": "Oregano",
+            "heart_weight": 0.0,
+            "stomach_weight": -0.3,
+            "kidney_weight": 0.2,
+            "skin_weight": -0.7
+        },
+        {
+            "name": "Thyme",
+            "heart_weight": -0.3,
+            "stomach_weight": -0.9,
+            "kidney_weight": 0.4,
+            "skin_weight": -0.5
+        },
+        {
+            "name": "Rosemary",
+            "heart_weight": -0.6,
+            "stomach_weight": 0.8,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.7
+        },
+        {
+            "name": "Dill",
+            "heart_weight": 0.9,
+            "stomach_weight": -0.4,
+            "kidney_weight": -0.0,
+            "skin_weight": 0.5
+        },
+        {
+            "name": "Sage",
+            "heart_weight": 0.1,
+            "stomach_weight": 0.9,
+            "kidney_weight": -0.6,
+            "skin_weight": 0.6
+        },
+        {
+            "name": "Bay leaves",
+            "heart_weight": 0.9,
+            "stomach_weight": -0.7,
+            "kidney_weight": -0.9,
+            "skin_weight": -0.6
+        },
+        {
+            "name": "Mint",
+            "heart_weight": 0.8,
+            "stomach_weight": -0.1,
+            "kidney_weight": -0.1,
+            "skin_weight": -0.8
+        },
+        {
+            "name": "Cumin",
+            "heart_weight": -0.1,
+            "stomach_weight": 0.4,
+            "kidney_weight": 0.9,
+            "skin_weight": -0.1
+        },
+        {
+            "name": "Paprika",
+            "heart_weight": -0.3,
+            "stomach_weight": 0.4,
+            "kidney_weight": 0.3,
+            "skin_weight": 0.5
+        },
+        {
+            "name": "Chili powder",
+            "heart_weight": -0.6,
+            "stomach_weight": -0.1,
+            "kidney_weight": 0.7,
+            "skin_weight": -0.3
+        },
+        {
+            "name": "Cayenne pepper",
+            "heart_weight": 0.5,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.3,
+            "skin_weight": 0.1
+        },
+        {
+            "name": "Black pepper",
+            "heart_weight": 0.7,
+            "stomach_weight": -0.3,
+            "kidney_weight": 0.5,
+            "skin_weight": 0.2
+        },
+        {
+            "name": "Soy sauce",
+            "heart_weight": -0.9,
+            "stomach_weight": 0.3,
+            "kidney_weight": 0.5,
+            "skin_weight": -1.0
+        },
+        {
+            "name": "Tamari",
+            "heart_weight": -0.4,
+            "stomach_weight": 0.1,
+            "kidney_weight": -0.9,
+            "skin_weight": 0.1
+        },
+        {
+            "name": "Teriyaki sauce",
+            "heart_weight": -0.6,
+            "stomach_weight": 0.0,
+            "kidney_weight": -0.5,
+            "skin_weight": -0.0
+        },
+        {
+            "name": "Worcestershire sauce",
+            "heart_weight": 0.5,
+            "stomach_weight": 0.6,
+            "kidney_weight": -0.8,
+            "skin_weight": 0.5
+        },
+        {
+            "name": "Hot sauce",
+            "heart_weight": -0.6,
+            "stomach_weight": 0.6,
+            "kidney_weight": -0.9,
+            "skin_weight": -0.9
+        },
+        {
+            "name": "Ketchup",
+            "heart_weight": -0.7,
+            "stomach_weight": 0.5,
+            "kidney_weight": 0.3,
+            "skin_weight": -0.5
+        },
+        {
+            "name": "Mustard",
+            "heart_weight": 0.7,
+            "stomach_weight": -0.6,
+            "kidney_weight": 0.9,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Mayonnaise",
+            "heart_weight": -0.6,
+            "stomach_weight": -1.0,
+            "kidney_weight": 0.7,
+            "skin_weight": 0.7
+        },
+        {
+            "name": "Barbecue sauce",
+            "heart_weight": 0.3,
+            "stomach_weight": 0.5,
+            "kidney_weight": -0.2,
+            "skin_weight": -0.9
+        },
+        {
+            "name": "Salad dressing",
+            "heart_weight": 0.8,
+            "stomach_weight": -0.8,
+            "kidney_weight": -0.6,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Tofu",
+            "heart_weight": 0.5,
+            "stomach_weight": -0.3,
+            "kidney_weight": 0.9,
+            "skin_weight": 0.6
+        },
+        {
+            "name": "Tempeh",
+            "heart_weight": -0.6,
+            "stomach_weight": -0.9,
+            "kidney_weight": -0.8,
+            "skin_weight": 0.5
+        },
+        {
+            "name": "Seitan",
+            "heart_weight": -0.6,
+            "stomach_weight": -0.1,
+            "kidney_weight": 0.9,
+            "skin_weight": -0.1
+        },
+        {
+            "name": "Plant-based protein",
+            "heart_weight": 0.8,
+            "stomach_weight": 0.3,
+            "kidney_weight": 0.8,
+            "skin_weight": 0.2
+        },
+        {
+            "name": "Whey protein",
+            "heart_weight": 0.1,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.2,
+            "skin_weight": -0.2
+        },
+        {
+            "name": "Casein protein",
+            "heart_weight": -0.7,
+            "stomach_weight": -0.5,
+            "kidney_weight": 0.9,
+            "skin_weight": 0.8
+        },
+        {
+            "name": "Pea protein",
+            "heart_weight": -0.4,
+            "stomach_weight": -1.0,
+            "kidney_weight": -0.4,
+            "skin_weight": -0.1
+        },
+        {
+            "name": "Soy protein",
+            "heart_weight": 0.9,
+            "stomach_weight": -0.6,
+            "kidney_weight": 0.8,
+            "skin_weight": 0.9
+        },
+        {
+            "name": "Fresh vegetables",
+            "heart_weight": 0.1,
+            "stomach_weight": 1.0,
+            "kidney_weight": -0.8,
+            "skin_weight": -0.2
+        },
+        {
+            "name": "Canned vegetables",
+            "heart_weight": -1.0,
+            "stomach_weight": -0.1,
+            "kidney_weight": -0.6,
+            "skin_weight": 0.9
+        },
+        {
+            "name": "Frozen vegetables",
+            "heart_weight": 0.8,
+            "stomach_weight": 0.8,
+            "kidney_weight": 0.5,
+            "skin_weight": 0.6
+        },
+        {
+            "name": "Fresh fruit",
+            "heart_weight": 0.6,
+            "stomach_weight": 0.7,
+            "kidney_weight": -0.6,
+            "skin_weight": -0.2
+        },
+        {
+            "name": "Dried fruit",
+            "heart_weight": 0.2,
+            "stomach_weight": 0.4,
+            "kidney_weight": 0.7,
+            "skin_weight": -1.0
+        },
+        {
+            "name": "Fruit preserves",
+            "heart_weight": 0.7,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.7,
+            "skin_weight": -0.9
+        },
+        {
+            "name": "Coffee",
+            "heart_weight": 0.2,
+            "stomach_weight": -0.5,
+            "kidney_weight": 1.0,
+            "skin_weight": 0.2
+        },
+        {
+            "name": "Tea",
+            "heart_weight": 0.9,
+            "stomach_weight": 0.5,
+            "kidney_weight": 0.8,
+            "skin_weight": -0.1
+        },
+        {
+            "name": "Hot cocoa",
+            "heart_weight": 1.0,
+            "stomach_weight": 0.6,
+            "kidney_weight": 0.4,
+            "skin_weight": 0.1
+        },
+        {
+            "name": "Matcha powder",
+            "heart_weight": 0.3,
+            "stomach_weight": 0.7,
+            "kidney_weight": 0.0,
+            "skin_weight": 0.2
+        },
+        {
+            "name": "Popcorn",
+            "heart_weight": -0.3,
+            "stomach_weight": -0.6,
+            "kidney_weight": -0.6,
+            "skin_weight": -0.7
+        },
+        {
+            "name": "Pretzels",
+            "heart_weight": -0.0,
+            "stomach_weight": 0.3,
+            "kidney_weight": 0.5,
+            "skin_weight": 0.4
+        },
+        {
+            "name": "Potato chips",
+            "heart_weight": 0.7,
+            "stomach_weight": 0.4,
+            "kidney_weight": 0.2,
+            "skin_weight": -0.7
+        },
+        {
+            "name": "Crackers",
+            "heart_weight": 0.6,
+            "stomach_weight": 0.3,
+            "kidney_weight": 0.8,
+            "skin_weight": 0.3
+        },
+        {
+            "name": "Cookies",
+            "heart_weight": -0.2,
+            "stomach_weight": -0.4,
+            "kidney_weight": 0.3,
+            "skin_weight": 0.0
+        },
+        {
+            "name": "Granola",
+            "heart_weight": 0.1,
+            "stomach_weight": 0.4,
+            "kidney_weight": -0.2,
+            "skin_weight": 0.0
+        },
+        {
+            "name": "Cereal",
+            "heart_weight": 1.0,
+            "stomach_weight": -0.3,
+            "kidney_weight": -0.1,
+            "skin_weight": -0.0
+        }
+    ]
+}
