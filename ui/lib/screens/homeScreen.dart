@@ -1,5 +1,9 @@
+import 'dart:convert'; // For Base64 encoding
+import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
+import 'package:image_picker/image_picker.dart';
+import 'package:http/http.dart' as http; // For API calls
 
 class HomeScreen extends StatefulWidget {
   final CameraDescription camera;
@@ -14,6 +18,8 @@ class _HomeScreenState extends State<HomeScreen> {
   late CameraController _controller;
   late Future<void> _initializeControllerFuture;
   bool _isTorchOn = false;
+  File? _selectedImage;
+  bool _isLoading = false;
 
   @override
   void initState() {
@@ -42,22 +48,69 @@ class _HomeScreenState extends State<HomeScreen> {
     }
   }
 
-  void takePicture() async {
+  Future<void> takePicture() async {
     try {
       await _initializeControllerFuture;
       final image = await _controller.takePicture();
-      // @todo Add functionality to save the image
+      await _processImage(File(image.path)); // Process the captured image
     } catch (e) {
       print(e);
     }
   }
 
-  void uploadImage() {
-    // @todo Add functionality to upload the image
+  Future<void> _pickImageFromGallery() async {
+    final picker = ImagePicker();
+    final pickedFile = await picker.pickImage(source: ImageSource.gallery);
+
+    if (pickedFile != null) {
+      await _processImage(File(pickedFile.path)); // Process the selected image
+    }
   }
 
-  void getResults() {
-    // @todo Add functionality to get the results
+  Future<void> _processImage(File imageFile) async {
+    setState(() {
+      _isLoading = true; // Show loader
+    });
+
+    try {
+      // Convert image to Base64
+      final bytes = await imageFile.readAsBytes();
+      final base64Image = base64Encode(bytes);
+
+      // API call
+      final response = await http.post(
+        Uri.parse("http://localhost:5000/processing"),
+        headers: {"Content-Type": "application/json"},
+        body: jsonEncode({"base64_data": base64Image}),
+      );
+
+      if (response.statusCode == 200) {
+        final responseData = jsonDecode(response.body);
+
+        // Navigator.push(
+        //   context,
+        //   MaterialPageRoute(
+        //     builder: (context) => ReportScreen(data: responseData),
+        //   ),
+        // );
+        print("Response: $responseData");
+      } else {
+        // Handle error
+        print("Error: ${response.statusCode}");
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text("Failed to process image. Try again.")),
+        );
+      }
+    } catch (e) {
+      print("Error: $e");
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text("An error occurred. Try again.")),
+      );
+    } finally {
+      setState(() {
+        _isLoading = false; // Hide loader
+      });
+    }
   }
 
   @override
@@ -154,9 +207,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     ElevatedButton(
-                      onPressed: () {
-                        // @todo
-                      },
+                      onPressed: takePicture,
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.redAccent,
                         shape: RoundedRectangleBorder(
@@ -175,9 +226,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     const SizedBox(width: 28),
                     OutlinedButton(
-                      onPressed: () {
-                        // @todo Add functionality for the upload button
-                      },
+                      onPressed: _pickImageFromGallery,
                       style: OutlinedButton.styleFrom(
                         padding: const EdgeInsets.symmetric(
                             horizontal: 32.0, vertical: 12.0),
@@ -239,8 +288,10 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ],
           ),
-
-          // "Tips" Section at the Bottom
+          if (_isLoading)
+            const Center(
+              child: CircularProgressIndicator(),
+            ),
         ],
       ),
     );
