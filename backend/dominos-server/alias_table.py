@@ -342,5 +342,4 @@ alias_table = {
     "Chili powder": ["Ground Chili"],
     "Cayenne pepper": ["Red Pepper"],
     "Black pepper": ["Peppercorn"]
-    "High-Oleic Soybean Oil": ["HOSO", "Soybean Oil"]
 }
