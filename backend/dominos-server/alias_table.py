@@ -11,7 +11,7 @@ alias_table = {
     "TBHQ": ["TBHQE", "Tert Butyl Hydroquinone", "E319"],
     "Nisin": ["Nisson", "Nysin", "E234"],
     "Red 40": ["Red Forty", "Red-40", "Allura Red AC", "E129"],
-    "Yellow 5": ["Yartrazine", "E102"],
+    "Yellow 5": ["Yellow Five", "Yellow-5", "Tartrazine", "E102"],
     "Tartrazine": ["Tartrazin", "Tartrazene", "E102"],
     "Blue 1 and 2": ["Blue One and Two", "Blu 1 & 2", "Brilliant Blue (E133)", "Indigotine (E132)"],
     "Aspartame": ["Aspirtame", "Aspartime", "E951"],
@@ -342,4 +342,5 @@ alias_table = {
     "Chili powder": ["Ground Chili"],
     "Cayenne pepper": ["Red Pepper"],
     "Black pepper": ["Peppercorn"]
+    "High-Oleic Soybean Oil": ["HOSO", "Soybean Oil"]
 }
