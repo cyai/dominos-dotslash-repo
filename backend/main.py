@@ -15,14 +15,20 @@ app = Flask(__name__)
 def check_health():
     return "Healthy"
 
-@app.route('/sample_data', methods = ["GET"])
+
+@app.route("/sample_data", methods=["GET"])
 def random_data():
-    sample = jsonify({"heart": [0.5, "Sodium Nitrite", "Sulfur Dioxide"],
-                    "stomach":[-0.2, "Potassium Sorbate", "Sodium Erythorbate"] ,
-                    "kidney": [-0.3, "Potassium Sorbate", "Propyl Paraben"],
-                    "skin" : [0.7, "Propionic Acid", "Propyl Paraben"]})
-    
+    sample = jsonify(
+        {
+            "heart": [0.5, "Sodium Nitrite", "Sulfur Dioxide"],
+            "stomach": [-0.2, "Potassium Sorbate", "Sodium Erythorbate"],
+            "kidney": [-0.3, "Potassium Sorbate", "Propyl Paraben"],
+            "skin": [0.7, "Propionic Acid", "Propyl Paraben"],
+        }
+    )
+
     return sample
+
 
 @app.route("/processing", methods=["POST"])
 def data_processing():
@@ -41,10 +47,10 @@ def data_processing():
                     "heart": [-1, "N/A", "N/A"],
                     "skin": [-1, "N/A", "N/A"],
                     "kidney": [-1, "N/A", "N/A"],
-                    "stomach": [-1, "N/A", "N/A"]
+                    "stomach": [-1, "N/A", "N/A"],
                 }
                 return response_payload, 200
-            
+
             print(f"OCR data: {ocr_data}")
             print("parsing the OCR text...")
             clean_data = data_cleaner(str(ocr_data))
@@ -53,10 +59,26 @@ def data_processing():
             normalized_scores, best_work_match = getting_match(list(clean_data))
 
             response_payload = {
-                "heart": [normalized_scores[0], best_work_match[0][0][1], best_work_match[0][1][1]],
-                "skin": [normalized_scores[1], best_work_match[1][0][1], best_work_match[1][1][1]],
-                "kidney": [normalized_scores[2], best_work_match[2][0][1], best_work_match[2][1][1]],
-                "stomach": [normalized_scores[3], best_work_match[3][0][1], best_work_match[3][1][1]]
+                "heart": [
+                    normalized_scores[0],
+                    best_work_match[0][0][1],
+                    best_work_match[0][1][1],
+                ],
+                "skin": [
+                    normalized_scores[1],
+                    best_work_match[1][0][1],
+                    best_work_match[1][1][1],
+                ],
+                "kidney": [
+                    normalized_scores[2],
+                    best_work_match[2][0][1],
+                    best_work_match[2][1][1],
+                ],
+                "stomach": [
+                    normalized_scores[3],
+                    best_work_match[3][0][1],
+                    best_work_match[3][1][1],
+                ],
             }
 
             return response_payload, 200
@@ -71,4 +93,4 @@ def data_processing():
 
 
 if __name__ == "__main__":
-    app.run(port=5002, debug=True, host="0.0.0.0")
+    app.run(port=5001, debug=True, host="0.0.0.0")
