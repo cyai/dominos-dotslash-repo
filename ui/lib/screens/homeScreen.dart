@@ -4,6 +4,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
 import 'package:image_picker/image_picker.dart';
+import 'menstrualCycleScreen.dart';
 import 'package:http/http.dart' as http;
 import 'reportScreen.dart';
 
@@ -201,6 +202,14 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
+  void _onTapFocus(TapDownDetails details, BoxConstraints constraints) {
+    final offset = Offset(
+      details.localPosition.dx / constraints.maxWidth,
+      details.localPosition.dy / constraints.maxHeight,
+    );
+    _controller.setFocusPoint(offset);
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -218,11 +227,22 @@ class _HomeScreenState extends State<HomeScreen> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     GestureDetector(
-                      onTap: showRandomFactDialog,
-                      child: const Icon(
-                        Icons.info_outline,
-                        size: 24,
-                        color: Colors.black54,
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => MenstrualCycleScreen()),
+                        );
+                      },
+                      // child: const Icon(
+                      //   Icons.info_outline,
+                      //   size: 24,
+                      //   color: Colors.black54,
+                      // ),
+                      child: Image.asset(
+                        'assets/images/fab/woman.jpg',
+                        width: 54,
+                        height: 54,
                       ),
                     ),
                     Row(
@@ -254,37 +274,47 @@ class _HomeScreenState extends State<HomeScreen> {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(16.0),
                     ),
-                    child: Stack(
-                      children: [
-                        FutureBuilder<void>(
-                          future: _initializeControllerFuture,
-                          builder: (context, snapshot) {
-                            if (snapshot.connectionState ==
-                                ConnectionState.done) {
-                              return ClipRRect(
-                                borderRadius: BorderRadius.circular(16.0),
-                                child: CameraPreview(_controller),
-                              );
-                            } else {
-                              return const Center(
-                                child: CircularProgressIndicator(),
-                              );
-                            }
-                          },
-                        ),
-                        Positioned(
-                          top: 10,
-                          right: 10,
-                          child: IconButton(
-                            icon: Icon(
-                              _isTorchOn ? Icons.flash_on : Icons.flash_off,
-                              color: Colors.white,
-                              size: 28,
-                            ),
-                            onPressed: toggleTorch,
+                    child: LayoutBuilder(
+                      builder: (context, constraints) {
+                        return GestureDetector(
+                          onTapDown: (details) =>
+                              _onTapFocus(details, constraints),
+                          child: Stack(
+                            children: [
+                              FutureBuilder<void>(
+                                future: _initializeControllerFuture,
+                                builder: (context, snapshot) {
+                                  if (snapshot.connectionState ==
+                                      ConnectionState.done) {
+                                    return ClipRRect(
+                                      borderRadius: BorderRadius.circular(16.0),
+                                      child: CameraPreview(_controller),
+                                    );
+                                  } else {
+                                    return const Center(
+                                      child: CircularProgressIndicator(),
+                                    );
+                                  }
+                                },
+                              ),
+                              Positioned(
+                                top: 10,
+                                right: 10,
+                                child: IconButton(
+                                  icon: Icon(
+                                    _isTorchOn
+                                        ? Icons.flash_on
+                                        : Icons.flash_off,
+                                    color: Colors.white,
+                                    size: 28,
+                                  ),
+                                  onPressed: toggleTorch,
+                                ),
+                              ),
+                            ],
                           ),
-                        ),
-                      ],
+                        );
+                      },
                     ),
                   ),
                 ),
