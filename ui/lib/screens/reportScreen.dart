@@ -6,27 +6,27 @@ class ReportScreen extends StatelessWidget {
   late final int skinPercentage;
   late final int kidneyPercentage;
   late final int heartPercentage;
-  late final String bestHair;
+  late final String bestKidney;
   late final String bestSkin;
   late final String bestGut;
   late final String bestHeart;
-  late final String worstHair;
+  late final String worstKidney;
   late final String worstSkin;
   late final String worstGut;
   late final String worstHeart;
 
   ReportScreen({Key? key, required this.report}) : super(key: key) {
-    gutPercentage = (((report['stomach'][0] as num) + 1) / 2 * 100).toInt();
-    skinPercentage = (((report['skin'][0] as num) + 1) / 2 * 100).toInt();
-    kidneyPercentage = (((report['kidney'][0] as num) + 1) / 2 * 100).toInt();
-    heartPercentage = (((report['heart'][0] as num) + 1) / 2 * 100).toInt();
-    bestHair = report['skin'][1];
-    bestSkin = report['skin'][2];
-    bestGut = report['stomach'][1];
-    bestHeart = report['heart'][2];
-    worstHair = report['skin'][1];
+    gutPercentage = (((report['stomach'][0] as num)) * 100).toInt();
+    skinPercentage = (((report['skin'][0] as num)) * 100).toInt();
+    kidneyPercentage = (((report['kidney'][0] as num)) * 100).toInt();
+    heartPercentage = (((report['heart'][0] as num)) * 100).toInt();
+    bestKidney = report['kidney'][1];
+    worstKidney = report['kidney'][2];
+    bestSkin = report['skin'][1];
     worstSkin = report['skin'][2];
-    worstGut = report['stomach'][1];
+    bestGut = report['stomach'][1];
+    worstGut = report['stomach'][2];
+    bestHeart = report['heart'][1];
     worstHeart = report['heart'][2];
   }
 
@@ -85,11 +85,38 @@ class ReportScreen extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 const SizedBox(height: 8),
-                Text(
-                  "The scanned product contains $best which is relatively safe for your $title. Consuming $best will help you in maintaining a healthy $title.",
-                  style: TextStyle(
-                    fontSize: 14,
-                    color: Colors.grey[600],
+                RichText(
+                  text: TextSpan(
+                    style: TextStyle(
+                      fontSize: 14,
+                      color: Colors.grey[600],
+                    ),
+                    children: [
+                      TextSpan(
+                        text: "The scanned product contains ",
+                      ),
+                      TextSpan(
+                        text: "$best",
+                        style: TextStyle(
+                          fontWeight: FontWeight.w500,
+                          color: Colors.black87,
+                        ),
+                      ),
+                      TextSpan(
+                        text:
+                            " which is relatively safe for your $title. Consuming ",
+                      ),
+                      TextSpan(
+                        text: "$best",
+                        style: TextStyle(
+                          fontWeight: FontWeight.w500,
+                          color: Colors.black87,
+                        ),
+                      ),
+                      TextSpan(
+                        text: " will help you in maintaining a healthy $title.",
+                      ),
+                    ],
                   ),
                 ),
               ],
@@ -115,11 +142,38 @@ class ReportScreen extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 const SizedBox(height: 8),
-                Text(
-                  "The scanned product contains $worst which is relatively bad for your $title. Consuming $worst might lead to $title-related issues.",
-                  style: TextStyle(
-                    fontSize: 14,
-                    color: Colors.grey[600],
+                RichText(
+                  text: TextSpan(
+                    style: TextStyle(
+                      fontSize: 14,
+                      color: Colors.grey[600],
+                    ),
+                    children: [
+                      TextSpan(
+                        text: "The scanned product contains ",
+                      ),
+                      TextSpan(
+                        text: "$worst",
+                        style: TextStyle(
+                          fontWeight: FontWeight.w500,
+                          color: Colors.black87,
+                        ),
+                      ),
+                      TextSpan(
+                        text:
+                            " which is relatively bad for your $title. Consuming ",
+                      ),
+                      TextSpan(
+                        text: "$worst",
+                        style: TextStyle(
+                          fontWeight: FontWeight.w500,
+                          color: Colors.black87,
+                        ),
+                      ),
+                      TextSpan(
+                        text: " might lead to $title-related issues.",
+                      ),
+                    ],
                   ),
                 ),
               ],
@@ -159,10 +213,15 @@ class ReportScreen extends StatelessWidget {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        const Icon(
-                          Icons.info_outline,
-                          size: 24,
-                          color: Colors.black54,
+                        GestureDetector(
+                          onTap: () {
+                            Navigator.pop(context);
+                          },
+                          child: const Icon(
+                            Icons.arrow_back,
+                            size: 24,
+                            color: Colors.black54,
+                          ),
                         ),
                         Row(
                           children: [
@@ -237,7 +296,10 @@ class ReportScreen extends StatelessWidget {
                                 ),
                                 const SizedBox(height: 8),
                                 Text(
-                                  "$gutPercentage%",
+                                  // "$gutPercentage%" ,
+                                  gutPercentage == -100
+                                      ? "N/A"
+                                      : "$gutPercentage%",
                                   style: TextStyle(
                                     fontSize: 22,
                                     fontWeight: FontWeight.bold,
@@ -262,7 +324,9 @@ class ReportScreen extends StatelessWidget {
                                 ),
                                 const SizedBox(height: 8),
                                 Text(
-                                  "$heartPercentage%",
+                                  heartPercentage == -100
+                                      ? "N/A"
+                                      : "$heartPercentage%",
                                   style: TextStyle(
                                       fontSize: 22,
                                       fontWeight: FontWeight.bold,
@@ -286,7 +350,9 @@ class ReportScreen extends StatelessWidget {
                                 ),
                                 const SizedBox(height: 8),
                                 Text(
-                                  "$skinPercentage%",
+                                  skinPercentage == -100
+                                      ? "N/A"
+                                      : "$skinPercentage%",
                                   style: TextStyle(
                                       fontSize: 22,
                                       fontWeight: FontWeight.bold,
@@ -310,7 +376,9 @@ class ReportScreen extends StatelessWidget {
                                 ),
                                 const SizedBox(height: 8),
                                 Text(
-                                  "$kidneyPercentage%",
+                                  kidneyPercentage == -100
+                                      ? "N/A"
+                                      : "$kidneyPercentage%",
                                   style: TextStyle(
                                     fontSize: 22,
                                     fontWeight: FontWeight.bold,
@@ -343,14 +411,18 @@ class ReportScreen extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 20),
-                  buildReportSection(
-                      "Heart", bestHeart, worstHeart, Colors.green[200]!),
-                  buildReportSection(
-                      "Gut", bestGut, worstGut, Colors.green[200]!),
-                  buildReportSection(
-                      "Skin", bestSkin, worstSkin, Colors.green[200]!),
-                  buildReportSection(
-                      "Kidney", bestHair, worstHair, Colors.green[200]!),
+                  if (gutPercentage != -100)
+                    buildReportSection(
+                        "Gut", bestGut, worstGut, getColor(gutPercentage)),
+                  if (heartPercentage != -100)
+                    buildReportSection("Heart", bestHeart, worstHeart,
+                        getColor(heartPercentage)),
+                  if (skinPercentage != -100)
+                    buildReportSection(
+                        "Skin", bestSkin, worstSkin, getColor(skinPercentage)),
+                  if (kidneyPercentage != -100)
+                    buildReportSection("Kidney", bestKidney, worstKidney,
+                        getColor(kidneyPercentage)),
                 ],
               ),
             ),

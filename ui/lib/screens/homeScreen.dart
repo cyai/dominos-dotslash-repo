@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/material.dart';
@@ -21,6 +22,13 @@ class _HomeScreenState extends State<HomeScreen> {
   bool _isTorchOn = false;
   File? _selectedImage;
   bool _isLoading = false;
+
+  final List<String> funFacts = [
+    "Heart Health:\n- Chocolate loves your heart! Dark chocolate (70% cocoa or more) helps blood flow and reduces stress.\n- Tuna contains high amounts of mercury which can have a negative impact on your motor skills if consumed regularly. But, it is very good for heart as it provides fiber and reduced sodium content.\n- Your heart loves nuts, but be careful with the salty ones—they’re a mixed signal for your arteries.\n- Strawberries are heart-shaped for a reason. Their vitamin C and antioxidants keep your heart smiling.\n- Pomegranate juice is a heart elixir. It reduces artery plaque and improves blood flow.",
+    "KIDNEY:\n- Watermelon is like a kidney car wash! Its high water content helps flush out toxins.\n- Basil tea keeps your kidneys clean. It acts as a natural detoxifier and helps prevent kidney stones.\n- Coconut water hydrates your kidneys naturally. It’s low in calories and helps prevent kidney stones.",
+    "SKIN:\n- Almonds are like sunscreen snacks. Their vitamin E protects your skin from UV damage.\n- Chia seeds are hydration heroes. They’re rich in omega-3s that keep your skin plump and healthy.\n- Sweet potatoes are natural skin brighteners. Their beta-carotene enhances your skin’s glow.\n- Honey is sweet for your skin. Whether eaten or applied, it locks in moisture and soothes irritation.",
+    "Gut Health:\n- Red wine = gut's best friend! A small glass feeds your gut microbes with polyphenols.\n- Coffee boost! It helps grow good bacteria and kickstarts digestion—perfect pre-meal fuel.\n- Leftover fried rice = gut magic! Cool it down, and it turns into resistant starch for your gut bacteria."
+  ];
 
   @override
   void initState() {
@@ -79,7 +87,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
       // get report
       final response = await http.post(
-        Uri.parse("http://localhost:5000/processing"),
+        Uri.parse("http://10.1.17.246:5001/processing"),
         headers: {"Content-Type": "application/json"},
         body: jsonEncode({"base64_data": base64Image}),
       );
@@ -87,12 +95,11 @@ class _HomeScreenState extends State<HomeScreen> {
       if (response.statusCode == 200) {
         final responseData = jsonDecode(response.body);
 
-        // Navigator.push(
-        //   context,
-        //   MaterialPageRoute(
-        //     builder: (context) => ReportScreen(data: responseData),
-        //   ),
-        // );
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+              builder: (context) => ReportScreen(report: responseData)),
+        );
         print("Response: $responseData");
       } else {
         print("Error: ${response.statusCode}");
@@ -112,6 +119,51 @@ class _HomeScreenState extends State<HomeScreen> {
     }
   }
 
+  void showRandomFactDialog() {
+    final randomFact = (funFacts..shuffle()).first;
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        Timer(Duration(seconds: 8), () {
+          if (Navigator.canPop(context)) {
+            Navigator.pop(context);
+          }
+        });
+        return AlertDialog(
+          contentPadding: EdgeInsets.zero,
+          content: Stack(
+            children: [
+              Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: Text(randomFact),
+              ),
+              Positioned(
+                top: 8,
+                right: 8,
+                child: GestureDetector(
+                  onTap: () {
+                    Navigator.of(context).pop();
+                  },
+                  child: Icon(Icons.close, color: Colors.grey),
+                ),
+              ),
+              Positioned(
+                bottom: 0,
+                left: 0,
+                right: 0,
+                child: LinearProgressIndicator(
+                  minHeight: 4,
+                  backgroundColor: Colors.grey[200],
+                  valueColor: AlwaysStoppedAnimation<Color>(Colors.blue),
+                ),
+              ),
+            ],
+          ),
+        );
+      },
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -128,10 +180,13 @@ class _HomeScreenState extends State<HomeScreen> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    const Icon(
-                      Icons.info_outline,
-                      size: 24,
-                      color: Colors.black54,
+                    GestureDetector(
+                      onTap: showRandomFactDialog,
+                      child: const Icon(
+                        Icons.info_outline,
+                        size: 24,
+                        color: Colors.black54,
+                      ),
                     ),
                     Row(
                       children: [
