@@ -3,7 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:camera/camera.dart';
 import 'screens/homeScreen.dart';
 import 'screens/reportScreen.dart';
-
+import 'screens/menstrualCycleScreen.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
       theme: baseTheme.copyWith(
         textTheme: GoogleFonts.interTextTheme(baseTheme.textTheme),
       ),
-      home: HomeScreen(camera: camera), // Pass the camera to HomeScreen
+      home: HomeScreen(camera: camera),
       // home: ReportScreen(
       //   report: {
       //     "heart": [0.5, "Sodium Nitrite", "Sulfur Dioxide"],
@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
       //     "stomach": [-0.2, "Potassium Sorbate", "Sodium Erythorbate"]
       //   },
       // ),
-
+      // home: MenstrualCycleScreen(),
     );
   }
 }

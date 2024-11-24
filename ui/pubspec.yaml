@@ -39,6 +39,9 @@ flutter:
     assets:
         - assets/images/fab/profile.jpeg
         - assets/images/fab/upload.png
+        - assets/images/fab/wave.png
+        - assets/images/fab/phases.png
+        - assets/images/fab/woman.jpg
 
     # An image asset can refer to one or more resolution-specific "variants", see
     # https://flutter.dev/to/resolution-aware-images
