@@ -3,11 +3,7 @@ alias_table = {
     "Sodium Benzoate": ["Sodium Benzote", "Sodium Benzoat", "Sodium Benazote", "E211"],
     "Sodium Nitrite": ["Sodium Nitirite", "Sodium Nitrate", "Nitrous Acid Sodium Salt"],
     "Sodium Nitrate": ["Sodium Nitrat", "Sodium Nitrade", "Chile Saltpeter"],
-<<<<<<< HEAD
     "Sulfur Dioxide": ["Sulfer Dioxide", "Sulphur Dioxide (ellow Five", "Yellow-5", "TBritish spelling)", "E220"],
-=======
-    "Sulfur Dioxide": ["Sulfer Dioxide", "Sulphur Dioxide (British spelling)", "E220"],
->>>>>>> edb3ea8 (implement report logic)
     "BHT": ["Butylated Hydroxy Toluene", "Butyl Hydroxy Toluene", "E321"],
     "Potassium Sorbate": ["Potasium Sorbate", "Potassium Sorbat", "E202"],
     "Sodium Erythorbate": ["Sodium Erythorobate", "Sodium Erythrobate", "E316"],
@@ -16,11 +12,7 @@ alias_table = {
     "TBHQ": ["TBHQE", "Tert Butyl Hydroquinone", "E319"],
     "Nisin": ["Nisson", "Nysin", "E234"],
     "Red 40": ["Red Forty", "Red-40", "Allura Red AC", "E129"],
-<<<<<<< HEAD
-    "Yellow 5": ["Yartrazine", "E102"],
-=======
     "Yellow 5": ["Yellow Five", "Yellow-5", "Tartrazine", "E102"],
->>>>>>> edb3ea8 (implement report logic)
     "Tartrazine": ["Tartrazin", "Tartrazene", "E102"],
     "Blue 1 and 2": ["Blue One and Two", "Blu 1 & 2", "Brilliant Blue (E133)", "Indigotine (E132)"],
     "Aspartame": ["Aspirtame", "Aspartime", "E951"],
@@ -235,7 +227,6 @@ alias_table = {
     "Golden Rice": ["Vitamin A Rice", "Biofortified Rice"],
     "Bt Corn": ["Bacillus Thuringiensis Corn", "GM Corn"],
     "Omega-3 Canola": ["Canola Oil with Omega-3", "Modified Canola Oil"],
-<<<<<<< HEAD
     "High-Oleic Soybean Oil": ["HOSO", "Soybean Oil"],
     "Water": ["H2O"],
     "Sugar": ["Sucrose", "Table Sugar"],
@@ -352,7 +343,4 @@ alias_table = {
     "Chili powder": ["Ground Chili"],
     "Cayenne pepper": ["Red Pepper"],
     "Black pepper": ["Peppercorn"]
-=======
-    "High-Oleic Soybean Oil": ["HOSO", "Soybean Oil"]
->>>>>>> edb3ea8 (implement report logic)
 }
