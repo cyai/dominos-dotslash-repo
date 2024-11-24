@@ -4,6 +4,7 @@ import 'package:camera/camera.dart';
 import 'screens/homeScreen.dart';
 import 'screens/reportScreen.dart';
 
+
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
@@ -28,15 +29,16 @@ class MyApp extends StatelessWidget {
       theme: baseTheme.copyWith(
         textTheme: GoogleFonts.interTextTheme(baseTheme.textTheme),
       ),
-      // home: HomeScreen(camera: camera), // Pass the camera to HomeScreen
-      home: ReportScreen(
-        report: {
-          "heart": [0.5, "Sodium Nitrite", "Sulfur Dioxide"],
-          "kidney": [-0.3, "Potassium Sorbate", "Propyl Paraben"],
-          "skin": [0.7, "Propionic Acid", "Propyl Paraben"],
-          "stomach": [-0.2, "Potassium Sorbate", "Sodium Erythorbate"]
-        },
-      ),
+      home: HomeScreen(camera: camera), // Pass the camera to HomeScreen
+      // home: ReportScreen(
+      //   report: {
+      //     "heart": [0.5, "Sodium Nitrite", "Sulfur Dioxide"],
+      //     "kidney": [-0.3, "Potassium Sorbate", "Propyl Paraben"],
+      //     "skin": [0.7, "Propionic Acid", "Propyl Paraben"],
+      //     "stomach": [-0.2, "Potassium Sorbate", "Sodium Erythorbate"]
+      //   },
+      // ),
+
     );
   }
 }
