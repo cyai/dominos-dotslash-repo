@@ -56,28 +56,9 @@ def data_cleaner(prompt_text):
     message = response.choices[0].message.function_call.arguments
 
     try:
-        json_data = json.loads(message)
-        return json_data["ingredients"]
-
+        json_data = json.loads(message)  
+        return json_data['ingredients']
+      
     except json.JSONDecodeError as e:
         return f"Failed to parse JSON: {e}"
 
-
-result = data_cleaner(
-    str(
-        {
-            "ocr_results": [
-                "Allergen Advice: Contains Wheat, Milk, Soy and Nut.",
-                "Papaya {Papaya CubesSugar Acidity Regulator INS 330}Cranberry]Nuts(4%Cashew Bits Almond Bits)",
-                "Ingredients: Retined Wheat Flour Maida)Sugar Edible Vegetable Oil (Palm) Dry Fruits 8% [Black Curant",
-                "Approximate values.%Calculated based on reference daily energy intake value ot 2000 kcal.",
-                "Sodium 63mg",
-                "Sodium 209mg",
-                "ny Fat7kcal",
-                "holesterol",
-                "Creative Visualization",
-            ]
-        }
-    )
-)
-print(result)

@@ -77,7 +77,7 @@ alias_table = {
     "Cinnamon": ["Cinnamom", "Cassia", "Dalchini"],
     "Psyllium Husk": ["Psyllium", "Isabgol", "Plantago"],
     "Pumpkin Seeds": ["Pumpkin Kernels", "Pepitas", "Pumpkin Nuts"],
-     "Hemp Seeds": ["Hempseed", "Hemp Kernels", "Shelled Hemp"],
+    "Hemp Seeds": ["Hempseed", "Hemp Kernels", "Shelled Hemp"],
     "Beets": ["Beetroot", "Beet", "Beta Vulgaris"],
     "Cabbage": ["Cabage", "Leafy Cabbage", "Brassica"],
     "Broccoli": ["Brocoli", "Broccolini", "Brassica Oleracea"],
@@ -342,6 +342,6 @@ alias_table = {
     "Paprika": ["Capsicum"],
     "Chili powder": ["Ground Chili"],
     "Cayenne pepper": ["Red Pepper"],
-    "Black pepper": ["Peppercorn"]
+    "Black pepper": ["Peppercorn"],
     "High-Oleic Soybean Oil": ["HOSO", "Soybean Oil"]
 }
